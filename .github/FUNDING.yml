@@ -1,0 +1,93 @@
+#<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .payment-card {
+    width: 320px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .payment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  }
+
+  .qr-frame {
+    border: 8px solid #f0f0f0;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .qr-image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .esewa-logo {
+    width: 100px;
+    margin: 15px 0 10px 0;
+  }
+
+  .user-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 5px 0;
+  }
+
+  .phone-number {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .fun-text {
+    font-size: 13px;
+    color: #e67e22;
+    margin-top: 8px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="payment-card">
+  <div class="qr-frame">
+    <img src="qr_code_image.jpg" alt="QR Code" class="qr-image">
+  </div>
+
+  <img src="https://blog.esewa.com.np/wp-content/uploads/2021/11/esewa_logo.png" alt="eSewa Logo" class="esewa-logo">
+
+  <div class="user-name">Sagar Prasad Chaudhary</div>
+  <div class="phone-number">9807732653</div>
+
+  <div class="footer-text">Scan this QR code to send me money safely via eSewa 💰</div>
+  <div class="fun-text">Your support keeps the creativity flowing! 😎✨</div>
+</div>
+
+</body>
+</html> These are supported funding model platforms
